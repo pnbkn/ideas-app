@@ -15,6 +15,15 @@
 		7F067028258975D000CF0E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F067026258975D000CF0E9E /* LaunchScreen.storyboard */; };
 		7F067033258975D000CF0E9E /* ThoughtsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F067032258975D000CF0E9E /* ThoughtsTests.swift */; };
 		7F06703E258975D000CF0E9E /* ThoughtsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F06703D258975D000CF0E9E /* ThoughtsUITests.swift */; };
+		7F89E29A258AB2370040EA9D /* Thought.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F89E299258AB2370040EA9D /* Thought.swift */; };
+		7F89E29C258AB2A30040EA9D /* ThoughtStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F89E29B258AB2A30040EA9D /* ThoughtStore.swift */; };
+		7F89E29E258AB47D0040EA9D /* ThoughtDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F89E29D258AB47D0040EA9D /* ThoughtDetail.swift */; };
+		7F89E2A0258AB52C0040EA9D /* ThoughtData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F89E29F258AB52C0040EA9D /* ThoughtData.swift */; };
+		7F89E2A2258AB5A00040EA9D /* thoughtData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F89E2A1258AB5A00040EA9D /* thoughtData.json */; };
+		7F89E2A4258AB64E0040EA9D /* AddNewThought.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F89E2A3258AB64E0040EA9D /* AddNewThought.swift */; };
+		7F89E2A6258AC8DB0040EA9D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F89E2A5258AC8DB0040EA9D /* MapView.swift */; };
+		7F89E2A8258AC9410040EA9D /* LocationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F89E2A7258AC9410040EA9D /* LocationMap.swift */; };
+		7FF1049B258B0D5F00E5205B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1049A258B0D5F00E5205B /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		7F067039258975D000CF0E9E /* ThoughtsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThoughtsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F06703D258975D000CF0E9E /* ThoughtsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtsUITests.swift; sourceTree = "<group>"; };
 		7F06703F258975D000CF0E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F89E299258AB2370040EA9D /* Thought.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thought.swift; sourceTree = "<group>"; };
+		7F89E29B258AB2A30040EA9D /* ThoughtStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtStore.swift; sourceTree = "<group>"; };
+		7F89E29D258AB47D0040EA9D /* ThoughtDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtDetail.swift; sourceTree = "<group>"; };
+		7F89E29F258AB52C0040EA9D /* ThoughtData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtData.swift; sourceTree = "<group>"; };
+		7F89E2A1258AB5A00040EA9D /* thoughtData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = thoughtData.json; sourceTree = "<group>"; };
+		7F89E2A3258AB64E0040EA9D /* AddNewThought.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewThought.swift; sourceTree = "<group>"; };
+		7F89E2A5258AC8DB0040EA9D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7F89E2A7258AC9410040EA9D /* LocationMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMap.swift; sourceTree = "<group>"; };
+		7FF1049A258B0D5F00E5205B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +120,15 @@
 				7F06701B258975CF00CF0E9E /* AppDelegate.swift */,
 				7F06701D258975CF00CF0E9E /* SceneDelegate.swift */,
 				7F06701F258975CF00CF0E9E /* ContentView.swift */,
+				7F89E29D258AB47D0040EA9D /* ThoughtDetail.swift */,
+				7FF1049A258B0D5F00E5205B /* LocationManager.swift */,
+				7F89E2A5258AC8DB0040EA9D /* MapView.swift */,
+				7F89E2A7258AC9410040EA9D /* LocationMap.swift */,
+				7F89E2A3258AB64E0040EA9D /* AddNewThought.swift */,
+				7F89E29F258AB52C0040EA9D /* ThoughtData.swift */,
+				7F89E2A1258AB5A00040EA9D /* thoughtData.json */,
+				7F89E299258AB2370040EA9D /* Thought.swift */,
+				7F89E29B258AB2A30040EA9D /* ThoughtStore.swift */,
 				7F067021258975D000CF0E9E /* Assets.xcassets */,
 				7F067026258975D000CF0E9E /* LaunchScreen.storyboard */,
 				7F067029258975D000CF0E9E /* Info.plist */,
@@ -241,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F067028258975D000CF0E9E /* LaunchScreen.storyboard in Resources */,
+				7F89E2A2258AB5A00040EA9D /* thoughtData.json in Resources */,
 				7F067025258975D000CF0E9E /* Preview Assets.xcassets in Resources */,
 				7F067022258975D000CF0E9E /* Assets.xcassets in Resources */,
 			);
@@ -267,9 +295,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F89E29E258AB47D0040EA9D /* ThoughtDetail.swift in Sources */,
+				7F89E2A0258AB52C0040EA9D /* ThoughtData.swift in Sources */,
 				7F06701C258975CF00CF0E9E /* AppDelegate.swift in Sources */,
+				7FF1049B258B0D5F00E5205B /* LocationManager.swift in Sources */,
+				7F89E2A8258AC9410040EA9D /* LocationMap.swift in Sources */,
 				7F06701E258975CF00CF0E9E /* SceneDelegate.swift in Sources */,
+				7F89E2A4258AB64E0040EA9D /* AddNewThought.swift in Sources */,
 				7F067020258975CF00CF0E9E /* ContentView.swift in Sources */,
+				7F89E29A258AB2370040EA9D /* Thought.swift in Sources */,
+				7F89E2A6258AC8DB0040EA9D /* MapView.swift in Sources */,
+				7F89E29C258AB2A30040EA9D /* ThoughtStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
